@@ -1,0 +1,261 @@
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url("/fonts/AlteHaasGroteskBold.ttf") format("truetype"),
+         url("/fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+}
+html{
+    scroll-behavior: smooth;
+}
+.alignmentmiddle{
+    display: flex;
+    align-items: center;
+}
+
+.particlewrapper{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#bt{
+    position: relative;
+    width: 100%;
+}
+
+#content{
+    position: absolute;
+    top: 0;
+}
+.anchor{
+    text-decoration: underline;
+    color: #3a3a3a;
+}
+
+.landing{
+    min-height: 120px;
+}
+
+.Yellow{
+    color: #F3C20F;
+}
+
+.pushdown{
+    margin-top: 56px;
+}
+.homecolor{
+    background-color: rgb(255, 211, 211);
+}
+.fill{
+    min-height: 100vh;
+    height: 100vh;
+}
+.main-padding{
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+.left-padding{
+    padding-left: 10vw;
+}
+.align{
+    justify-content: center;
+}
+
+.mainContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.fullContainer{
+    margin: auto;
+    background-color: #1c1f4c;
+    padding-top:56px;
+    padding-bottom: 56px;
+}
+
+.fullContainerText{
+    color: white;
+}
+
+.InsightSubhead{
+    color: #F3C20F;
+    font-family: Alte Haas Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    
+    font-size: 10pt;
+}
+
+.mainButtons{
+    background-color: #1c1f4c;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    height: 50px;
+    width: 262px;
+    text-align: center;
+    font-family: Alte Haas Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+
+}
+
+.caption{
+    color: #807A7A;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Alte Haas Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+
+}
+
+.KeyInsights{
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+
+    border-bottom: solid 4px #fccf17;
+    color: #1D1E4E;
+}
+
+
+.emphasis{
+    color: #00848c;
+    font-weight: bold;
+}
+
+.right{
+    text-align: right;
+}
+
+.quote{
+    font-family: Chivo;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.42%;
+    letter-spacing: 0.02em;
+
+    color: #1D1E4E;
+}
+.quotePerson{
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.42%;
+    letter-spacing: 0.02em;
+
+    color: #1D1E4E;
+}
+
+.quoteblock{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.shadowedrocket{
+    background-color: #e3e3e3;
+}
+
+.shadowed{
+    box-shadow: 0px 2px 18px rgba(29, 30, 78, 0.12);
+}
+.shadowed-less{
+    -webkit-filter: drop-shadow(0px 2px 18px rgba(29, 30, 78, 0.12));
+    filter: drop-shadow(0px 2px 18px rgba(29, 30, 78, 0.12));
+}
+
+.downarrowpadding{
+    margin-top: 20%;
+}
+
+.BulbPosition{
+    display: inline-block;
+}
+
+.PageTitle{
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #1D1E4E;
+}
+
+.ContentText{
+    font-family: Alte Haas Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+
+    color: #3a3a3a;
+}
+
+.SectionHeader{
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 43px;
+
+    color: #00848C;
+
+}
+
+.Insights{
+    font-family: Alte Haas Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.Segments{
+    font-family: Alte Haas Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+
+    color: #1D1E4E;
+
+}
+
+.moveleft{
+    margin-left: 0.5em;
+}
+
+.Copyright{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.side-by-side {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 1em;
+}
+
+.active {
+    border-bottom: solid 4px #fccf17;
+}
